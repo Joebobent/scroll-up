@@ -1,0 +1,127 @@
+#scrollup-anchor {
+	display: block;
+	height: 0px;
+	width: 0px;
+	font-size: 14px;
+	font-weight: 600;
+}
+#scrollup-anchor .scrollup-button {
+	display: block;
+	position: fixed;
+	z-index: 999999999999;
+	color: #fff;
+	background: #222;
+	border-radius: 12px;
+	border-style: solid;
+}
+#scrollup-anchor .scrollup-button:before {
+	content: '';
+	position: absolute;
+	top: 35%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	height: 0;
+	width: 0;
+	border-style: solid;
+}
+
+
+/* Button Size */
+#scrollup-anchor .scrollup-button.small {
+	font-size: 1em;
+	padding: 40px 5px 5px;
+	border-width: 3px;
+	min-width: 60px;
+}
+#scrollup-anchor .scrollup-button.small:before {
+	border-width: 0 20px 20px;
+}
+#scrollup-anchor .scrollup-button.medium {
+	font-size: 1.25em;
+	padding: 55px 5px 5px;
+	border-width: 4px;
+	min-width: 80px;
+}
+#scrollup-anchor .scrollup-button.medium:before {
+	border-width: 0 28px 28px;
+}
+#scrollup-anchor .scrollup-button.large {
+	font-size: 1.5em;
+	padding: 70px 5px 5px;
+	border-width: 5px;
+	min-width: 100px;
+}
+#scrollup-anchor .scrollup-button.large:before {
+	border-width: 0 36px 36px;
+}
+
+/* Button Location */
+#scrollup-anchor .scrollup-button.bottom-right {
+	bottom: 75px;
+	right: 50px;
+}
+#scrollup-anchor .scrollup-button.bottom-left {
+	bottom: 75px;
+	left: 50px;
+}
+#scrollup-anchor .scrollup-button.top-right {
+	top: 75px;
+	right: 50px;
+}
+#scrollup-anchor .scrollup-button.top-left {
+	top: 75px;
+	left: 50px;
+}
+
+
+/* Button Type */
+#scrollup-anchor .scrollup-button.ghost {
+	transition: opacity .38s;
+	opacity: .3;
+}
+#scrollup-anchor .scrollup-button.ghost:hover {
+	opacity: 1;
+}
+
+
+/*Button Scheme*/
+#scrollup-anchor .scrollup-button.dark {
+	background: #222;
+	color: #fff;
+	border-color: #444;
+}
+#scrollup-anchor .scrollup-button.dark:before {
+	border-color: #fff transparent;
+}
+#scrollup-anchor .scrollup-button.light {
+	background: #F6F6F6;
+	color: #222;
+	border-color: #AAAAAA;
+}
+#scrollup-anchor .scrollup-button.light:before {
+	border-color: #333 transparent;
+}
+#scrollup-anchor .scrollup-button.blue {
+	background: #04ACB4;
+	color: #034A64;
+	border-color: #057286;
+}
+#scrollup-anchor .scrollup-button.blue:before {
+	border-color: #034A64 transparent;
+}
+#scrollup-anchor .scrollup-button.red {
+	background: #EC2802;
+	color: #FED201;
+	border-color: #E06A01;
+}
+#scrollup-anchor .scrollup-button.red:before {
+	border-color: #FED201 transparent;
+}
+#scrollup-anchor .scrollup-button.brown {
+	background: #957042;
+	color: #34231D;
+	border-color: #F6EED2;
+}
+#scrollup-anchor .scrollup-button.brown:before {
+	border-color: #34231D transparent;
+}
