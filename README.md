@@ -1,4 +1,4 @@
-Much like the name suggests, this plugin will add a back to top button to the corner of your site after scrolling past the top fold.
+Much like the name suggests, this plugin will add a back to top button to the corner of your site.
 
 Adjust the settings to your liking for your back to top button.
 
